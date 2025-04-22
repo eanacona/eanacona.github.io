@@ -1,77 +1,156 @@
 <!DOCTYPE html>
-<html lang="es">
-<meta name="description" content="Sitio creado para evaluacion de taller de aplicaciones web">
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>El Faro Noticias</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@1.0.2/css/bulma.min.css">
+    <body bgcolor="#c9d2d0">
+  </head>
+  <body>
+   
+   
+   <section class="hero is-warning is-small">
+    <div class="hero-head">
+     <nav class="navbar">
+      <div class="container">
+       <div class="navbar-brand">
+        <a class="navbar-item">
+         <img src="faro.jpg" alt="Logo" />
+        </a>
+       </div>
+      </div>
+    </nav>
+  </div>
 
-<head>
-<title> El Faro </title>
-<meta charset="UTF-8">
-<link rel="stylesheet" href="estilos.css">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-</head>
+ 
+  <div class="hero-body">
+    <div class="container has-text-centered">
+      <p class="title">El Faro</p>
+      <p class="subtitle">Sitio de noticias especializado en deportes y negocios       </p>
+    </div>
+  </div>
 
-<body class="grid">
-<header class="header">
-<center><h1>El Faro</h1></center>
-<center><img src="faro.jpg" width="10%"></center>  
-<br> 
-<center><font size="5"> Sitio de noticias especializado en deportes y negocios </font></center>
-</header>
 
-<br>
-<br>
-
-<nav class="nav">
-<center>
-<table border="1">
-<tr>
-<td><a href="noticias.html">Noticias</a></td> 
-<td><a href="deportes.html">Deportes</a></td>
-<td><a href="negocios.html">Negocios</a></td>
-</tr>
-</table>
-</center>
-</nav>
-
-<article class="article">
-<center>
-<table border="1">
-<tr>
-<td colspan="3"><h1>Actualidad </h1></td> 
-</tr>
-
-<tr>
-<td>Noticias</td>
-
-<td>Al menos dos muertos tras colisión de alta energía en Cabrero, en cruce con Ruta 5 Sur </td>
-
-<td><p>Al menos dos muertos dejó la noche de este viernes un accidente de tránsito registrado en la comuna de Cabrero, región del Bío Bío.</p>
-
-<p>Se trata de una colisión de alta energía entre dos vehículos, una camioneta y un auto, ocurrida en el cruce Cabrero con la Ruta 5 Sur. <a href="noticias.html">Seguir leyendo</a></p></td>
-
-<tr>
-<td>Deportes</td>
-<td>La Roja Sub 17 golea 5-0 a Perú en el Sudamericano de Colombia y se encamina al Mundial Catar 2025 </td>
-<td>La Roja Sub 17 vapuleó a su similar de Perú y lo derrotó por 5-0 en su tercer partido en el Sudamericano de Colombia, premundialista para Catar 2025. <a href="deportes.html">Seguir leyendo</a></td>
-
-<tr>
-<td>Noticias</td>
-<td>Biotren restablece su servicio Coronel-Concepción tras suspensión provocada por "camión externo"</td>
-<td><p>Tras sufrir un “problema de carácter eléctrico” este viernes, Biotren informó el restablecimiento del servicio que conecta a Coronel con Concepción, en la región del Bío Bío.</p>
-
-<p>Según informó la empresa a las 19:20 horas en redes sociales, esta tarde se registró incidente “provocado por camión que realizaba faena en un sector cercano a Juan Pablo II”. Esto generó la detención del servicio. <a href="noticias.html">Seguir leyendo</a></p></td>
-
-</table>
-</center>
-</article>
+ <div class="hero-foot">
+    <nav class="tabs is-boxed is-fullwidth">
+      <div class="container">
+        <ul>
+          <li class="is-active">
+            <a href="noticias.html">Noticias</a>
+          </li>
+          <li>
+            <a href="deportes.html">Deportes</a>
+          </li>
+          <li>
+            <a href="negocios.html">Negocios</a>
+          </li>
+         </ul>
+      </div>
+    </nav>
+  </div>
+</section>
 
 <br>
+
+<div class="columns">
+  <div class="column is-three-quarters">
+
+   <div class="card">
+     <div class="card-content">
+      <p class="title">
+       Al menos dos muertos tras colisión de alta energía en Cabrero, en cruce con Ruta 5 Sur
+      </p>
+     </div>
+
+    <footer class="card-footer">
+     <p class="card-footer-item">
+      <span>
+        Seguir leyendo en
+        <a href="noticias.html">Noticias</a>
+      </span>
+     </p>
+    </footer>
+   </div>
+
+<br>
+
+    <div class="card">
+     <div class="card-content">
+      <p class="title">
+       La Roja Sub 17 golea 5-0 a Perú en el Sudamericano de Colombia y se encamia al Mundial Catar 2025
+      </p>
+     </div>
+    <footer class="card-footer">
+     <p class="card-footer-item">
+      <span>
+        Seguir leyendo en
+        <a href="deportes.html">Deportes</a>
+      </span>
+     </p>
+    </footer>
+   </div>
+
+<br>
+
+   <div class="card">
+    <div class="card-content">
+     <p class="title">
+      Biotren restablece su servicio Coronel-Concepción tras suspensión provocada por "camión externo"
+     </p>
+    </div>
+   <footer class="card-footer">
+    <p class="card-footer-item">
+     <span>
+       Seguir leyendo en
+       <a href="noticias.html">Noticias</a>
+     </span>
+    </p>
+   </footer>
+  </div>
+
+</div>
+
+<div class="column">
+ <div class="card">
+  <div class="card-image">
+   <figure class="image is-4by3">
+    <img 
+     src="https://bulma.io/assets/images/placeholders/1280x960.png" 
+     alt="Placeholder image publicidad"
+    />
+   </figure>
+  </div>
+   <div class="card-content">
+    <div class="media">
+     <div class="media-left">
+      <div class="media-content">
+        <p class="title is-4">Publicidad</p>
+      </div>
+     </div>
+    </div>
+     <div class="content">
+      Descripción publicidad 
+      <br />
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+</div>
+
 <br>
 
 <footer class="footer">
-<center> Evaluación taller de aplicaciones web E. A. J. 2025 </center>
+  <div class="content has-text-centered">
+    <p>
+      <a href="contacto.html">Contacto</a>  -
+      <a href="legal.html">Legal</a>    -
+      <a href="redessociales.html">Redes Sociales</a>  
+    <p>
+      Evaluación taller de aplicaciones web E. A. J. 2025 </p>
+  </div>
 </footer>
-
-</body>
+  
+  </body>
 </html>
